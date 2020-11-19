@@ -100,6 +100,15 @@
             android:selectable="false"
             settings:enableCopying="true"/>
 
+        <!-- Radio info -->
+        <Preference
+            android:key="radio_info_settings"
+            android:title="@string/radio_info_title">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.phone"
+                    android:targetClass="com.android.phone.settings.RadioInfo" />
+        </Preference>
+
     </PreferenceCategory>
 
 </PreferenceScreen>
