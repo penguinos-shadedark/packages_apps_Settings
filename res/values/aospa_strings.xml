@@ -599,4 +599,7 @@
     <!-- Summary shown when the audio codec of a paired device cannot be read or chosen. [CHAR LIMIT=40] -->
     <string name="bluetooth_details_audio_codec_unavailable">Not available</string>
 
+    <!-- aptX Settings -->
+    <string name="connected_device_codec_preference">Qualcomm® aptX™ Codec preferences</string>
+
 </resources>
