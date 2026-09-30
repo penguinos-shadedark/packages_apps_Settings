@@ -351,10 +351,11 @@
     <string name="aospa_processor_code_title">Processor</string>
     <string name="aospa_battery_type_title">Battery</string>
     <string name="aospa_screen_title">Screen</string>
-    <string name="aospa_device_message">LAVA Agni 3</string>
-    <string name="aospa_processor_code_message">Dimensity 7300x</string>
-    <string name="aospa_battery_type_message">4700 mAh</string>
-    <string name="aospa_screen_message">Amoled LTPO 120hz</string>
+    <!-- Hardware values are set per device through an overlay; a card with an empty value is hidden -->
+    <string name="aospa_device_message" translatable="false"></string>
+    <string name="aospa_processor_code_message" translatable="false"></string>
+    <string name="aospa_battery_type_message" translatable="false"></string>
+    <string name="aospa_screen_message" translatable="false"></string>
     
     
     <!-- Pocket mode -->

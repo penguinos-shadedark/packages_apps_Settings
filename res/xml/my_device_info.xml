@@ -60,7 +60,7 @@
 
         <Preference
             android:key="device_model"
-            android:order="10"
+            android:order="13"
             android:title="@string/model_name"
             android:summary="@string/model_summary"
             android:icon="@drawable/settings_system_dashboard_acc"
@@ -86,6 +86,43 @@
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"
+            app:layout="@layout/pengu_card_mid_abt"/>
+
+        <!-- Hardware specs, hidden unless the device overlay sets a value -->
+        <Preference
+            android:icon="@drawable/ic_device_spec_device"
+            android:key="device_spec_device"
+            android:order="9"
+            android:title="@string/aospa_device_title"
+            android:selectable="false"
+            settings:controller="com.android.settings.deviceinfo.DeviceSpecPreferenceController"
+            app:layout="@layout/pengu_card_mid_abt"/>
+
+        <Preference
+            android:icon="@drawable/ic_device_spec_processor"
+            android:key="device_spec_processor"
+            android:order="10"
+            android:title="@string/aospa_processor_code_title"
+            android:selectable="false"
+            settings:controller="com.android.settings.deviceinfo.DeviceSpecPreferenceController"
+            app:layout="@layout/pengu_card_mid_abt"/>
+
+        <Preference
+            android:icon="@drawable/ic_device_spec_battery"
+            android:key="device_spec_battery"
+            android:order="11"
+            android:title="@string/aospa_battery_type_title"
+            android:selectable="false"
+            settings:controller="com.android.settings.deviceinfo.DeviceSpecPreferenceController"
+            app:layout="@layout/pengu_card_mid_abt"/>
+
+        <Preference
+            android:icon="@drawable/ic_device_spec_screen"
+            android:key="device_spec_screen"
+            android:order="12"
+            android:title="@string/aospa_screen_title"
+            android:selectable="false"
+            settings:controller="com.android.settings.deviceinfo.DeviceSpecPreferenceController"
             app:layout="@layout/pengu_card_mid_abt"/>
 
     </PreferenceCategory>
