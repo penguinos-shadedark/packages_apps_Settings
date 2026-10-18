@@ -70,7 +70,7 @@
 
     <PreferenceCategory
         android:key="device_status_category"
-        android:title="Venkat">
+        android:title="@string/model_name">
 
         <Preference
             android:key="wifi_ip_address"
